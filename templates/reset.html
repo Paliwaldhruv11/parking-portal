@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>Reset</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Reset All Spaces</h2>
+    <p>Click below to reset all parking spaces</p>
+    <form method="GET" action="/reset">
+        <input type="submit" value="Reset">
+    </form>
+</body>
+</html>

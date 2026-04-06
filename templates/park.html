@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Park Vehicle</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Park a Vehicle</h2>
+    <form method="POST">
+        Reg No: <input name="reg_number"><br>
+        Owner Name: <input name="owner_name"><br>
+        Vehicle Type: <input name="vehicle_type"><br>
+        <input type="submit" value="Park">
+    </form>
+</body>
+</html>
+
